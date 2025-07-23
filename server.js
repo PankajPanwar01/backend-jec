@@ -6,6 +6,7 @@ const userRoute = require('./routes/userRoutes')
 const developerRoute = require('./routes/developerRoutes');
 const passport = require('./auth')
 
+
 // middleware
 app.use(express.json())
 dotenv.config();
